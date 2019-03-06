@@ -2,8 +2,9 @@ import React from 'react'
 
 const Home = () => (
   <div className="container">
-      <div>
-          This is Home Page
+      <div className="home__tagline">
+          <h2>WWWID</h2>
+          <div>update tren pengembagan web modern</div>
       </div>
   </div>
 )
