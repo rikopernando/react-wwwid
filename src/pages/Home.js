@@ -1,4 +1,5 @@
 import React from 'react'
+import ListArticle from '../components/ListArticle'
 
 const Home = () => (
   <div className="container">
@@ -6,6 +7,7 @@ const Home = () => (
           <h2>WWWID</h2>
           <div>update tren pengembagan web modern</div>
       </div>
+      <ListArticle />
   </div>
 )
 

@@ -1,5 +1,6 @@
+const stateDefaultArticle = []
 
-export default (state = [], action) => {
+export default (state = stateDefaultArticle, action) => {
   switch(action.type){
     case 'SET_ARTIKEL':
       return action.article
