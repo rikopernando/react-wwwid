@@ -13,9 +13,16 @@ body {
     color: $grey;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    color: $black;
+}
+
 h2 {
     font-size: 175%;
-    color: #000;
+    color: $black;
     font-weight: bold;
     margin-bottom: 10px;
 }
